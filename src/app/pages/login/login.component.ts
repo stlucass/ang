@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { HomeComponent } from '../home/home.component';
 
 @Component({
@@ -8,9 +8,14 @@ import { HomeComponent } from '../home/home.component';
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'
 })
-export class LoginComponent {
+export class LoginComponent implements OnInit {
 
   public nome!  : String;
   public sobrenome!  : String;
+
+  ngOnInit(): void {
+    this.nome! = "Lucas";
+
+  }
   
 }

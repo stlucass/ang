@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HomeComponent } from '../home/home.component';
 
 @Component({
   selector: 'app-login',
@@ -9,4 +10,7 @@ import { Component } from '@angular/core';
 })
 export class LoginComponent {
 
+  public nome!  : String;
+  public sobrenome!  : String;
+  
 }

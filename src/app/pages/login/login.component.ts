@@ -15,6 +15,8 @@ export class LoginComponent implements OnInit {
 
   ngOnInit(): void {
     this.nome! = "Lucas";
+    this.sobrenome! = "Castro";
+
 
   }
   

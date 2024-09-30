@@ -1,0 +1,22 @@
+a{
+    color: white;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+form{
+    width: auto;
+    padding: 10px;
+}
+
+.container-tudo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(0, 0, 0, 0.295);
+    border-radius: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+    color: white;
+}

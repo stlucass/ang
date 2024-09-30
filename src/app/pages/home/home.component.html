@@ -1,7 +1,13 @@
-<div class="container-links">
-    <div class="container-items">
-        <h1>HOME</h1>
-        <h2><p><a routerLink ="/login" routerLinkActive="active">Realizar Login</a></p></h2>
-        <h2><p><a [href]="'/produtos'">Visualizar Produtos</a></p></h2>
-    </div>
+<nav class="navbar navbar-expand-lg">
+<div class="nav navbar">
+    <ul></ul>
+    <li class="nav-item" a class="nav-link" [href]="'/home'">HOME</a></li>
+    <li class="nav-item" a class="nav-link" [href]="'/produto'">PRODUTOS</a></li>
+    <li class="nav-item" a class="nav-link" [href]="'/login'">LOGAR</a></li>
+    </ul>
 </div>
+</nav>
+
+<main>
+    <router-outlet></router-outlet>
+</main>
